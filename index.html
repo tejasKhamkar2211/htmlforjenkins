@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dnyaneshwar Mauli Gallery</title>
+  <title>Nature Image Gallery</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f4f4f4;
+      background-color: #f0f0f0;
       color: #333;
     }
 
@@ -30,24 +30,13 @@
       text-align: center;
     }
 
-    .gallery {
-      display: flex;
-      justify-content: center;
-      gap: 15px;
-      flex-wrap: wrap;
-    }
-
-    .gallery img {
-      width: 300px;
-      height: 200px;
-      object-fit: cover;
-      border-radius: 10px;
+    .nature-image {
+      width: 100%;
+      height: auto;
+      max-width: 1000px;
+      margin: 0 auto;
+      border-radius: 15px;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-      transition: transform 0.3s;
-    }
-
-    .gallery img:hover {
-      transform: scale(1.05);
     }
 
     footer {
@@ -59,27 +48,20 @@
       bottom: 0;
       width: 100%;
     }
-
   </style>
 </head>
 <body>
   <header>
-    <h1>Dnyaneshwar Mauli Gallery</h1>
-    <p>Honoring the great poet and saint, Sant Dnyaneshwar Mauli</p>
+    <h1>Nature Image Gallery</h1>
+    <p>Experience the beauty of nature through images</p>
   </header>
 
   <div class="container">
-    <section class="gallery">
-      <!-- Images of Sant Dnyaneshwar Mauli -->
-      <img src="https://upload.wikimedia.org/wikipedia/commons/6/68/Dnyaneshwar_Mauli.jpg" alt="Dnyaneshwar Mauli 1">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Sant_Dnyaneshwar.jpg" alt="Dnyaneshwar Mauli 2">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Sant_Dnyaneshwar.jpg" alt="Dnyaneshwar Mauli 3">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Dnyaneshwar_Mauli_statue.jpg" alt="Dnyaneshwar Mauli 4">
-    </section>
+    <img class="nature-image" src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Mount_Everest_from_Kalapatthar.jpg" alt="Nature Image">
   </div>
 
   <footer>
-    <p>&copy; 2025 Dnyaneshwar Mauli Gallery. All rights reserved.</p>
+    <p>&copy; 2025 Nature Gallery. All rights reserved.</p>
   </footer>
 </body>
 </html>
