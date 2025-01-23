@@ -3,21 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dnyaneshwar Mauli</title>
+  <title>Nature Image Gallery</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f8f8f8;
+      background-color: #f0f0f0;
       color: #333;
     }
 
     header {
-      background-color: #6200ea;
+      background-color: #4CAF50;
       color: white;
       text-align: center;
-      padding: 1rem 0;
+      padding: 20px;
     }
 
     header h1 {
@@ -25,24 +25,25 @@
       font-size: 2.5rem;
     }
 
-    .gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-      padding: 2rem;
+    .container {
+      padding: 20px;
+      text-align: center;
     }
 
-    .gallery img {
+    .nature-image {
       width: 100%;
-      border-radius: 10px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      height: auto;
+      max-width: 1000px;
+      margin: 0 auto;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     }
 
     footer {
       background-color: #333;
       color: white;
       text-align: center;
-      padding: 1rem 0;
+      padding: 10px 0;
       position: fixed;
       bottom: 0;
       width: 100%;
@@ -51,13 +52,16 @@
 </head>
 <body>
   <header>
-    <h1>Dnyaneshwar Mauli</h1>
-    <p>Dedicated to the great saint and poet, Sant Dnyaneshwar Mauli</p>
+    <h1>Nature Image Gallery</h1>
+    <p>Experience the beauty of nature through images</p>
   </header>
 
-  <main>
-    <section class="gallery">
-      <!-- Replace the src URLs with the actual image links -->
-      <img src="https://via.placeholder.com/250?text=Dnyaneshwar+Image+1" alt="Dnyaneshwar Mauli 1">
-      <img src="https://via.placeholder.com/250?text=Dnyaneshwar+Image+2" alt="Dnyaneshwar Mauli 2">
-      <img src="https://via.placeholder.com/250?tex
+  <div class="container">
+    <img class="nature-image" src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Mount_Everest_from_Kalapatthar.jpg" alt="Nature Image">
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Nature Gallery. All rights reserved.</p>
+  </footer>
+</body>
+</html>
